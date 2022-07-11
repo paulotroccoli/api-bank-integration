@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Configuration hierarchy="br" description="Brazil"
+	xmlns:tns="http://www.example.org/Holiday" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/Holiday /Holiday.xsd">
+	<tns:Holidays>
+		<tns:Fixed month="JANUARY" day="1" descriptionPropertiesKey="NEW_YEAR"/>
+		<tns:Fixed month="APRIL" day="21" descriptionPropertiesKey="TIRADENTES"/>
+		<tns:Fixed month="MAY" day="1" descriptionPropertiesKey="LABOUR_DAY"/>
+		<tns:Fixed month="SEPTEMBER" day="7" descriptionPropertiesKey="INDEPENDENCE"/>
+		<tns:Fixed month="OCTOBER" day="12" validFrom="1980" descriptionPropertiesKey="APARECIDA"/>
+		<tns:Fixed month="NOVEMBER" day="2" descriptionPropertiesKey="ALL_SOULS"/>
+		<tns:Fixed month="NOVEMBER" day="15" descriptionPropertiesKey="NATIONAL_DAY"/>
+		<tns:Fixed month="DECEMBER" day="25" descriptionPropertiesKey="CHRISTMAS"/>
+		<tns:ChristianHoliday type="EASTER" />
+		<tns:ChristianHoliday type="CARNIVAL"/>
+		<tns:ChristianHoliday type="ASH_WEDNESDAY"/>
+		<tns:ChristianHoliday type="GOOD_FRIDAY"/>
+		<tns:ChristianHoliday type="CORPUS_CHRISTI"/>
+	</tns:Holidays>
+	<tns:SubConfigurations hierarchy="ac" description="Acre">
+		<tns:Holidays>
+			<tns:Fixed month="JANUARY" day="20" descriptionPropertiesKey="CATHOLIC_DAY"/>
+			<tns:Fixed month="JANUARY" day="25" descriptionPropertiesKey="GOSPEL_DAY"/>
+			<tns:Fixed month="JUNE" day="15" descriptionPropertiesKey="FOUNDATION"/>
+			<tns:Fixed month="SEPTEMBER" day="5" descriptionPropertiesKey="AMAZONIA_DAY"/>
+			<tns:Fixed month="NOVEMBER" day="17" descriptionPropertiesKey="PETROPOLIS_TREATY"/>
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="al" description="Alagoas">
+		<tns:Holidays>
+			<tns:Fixed month="JUNE" day="24" descriptionPropertiesKey="ST_JOHN"/>
+			<tns:Fixed month="JUNE" day="29" descriptionPropertiesKey="ST_PETER"/>
+			<tns:Fixed month="SEPTEMBER" day="16" descriptionPropertiesKey="EMANCIPATION"/>
+			<tns:Fixed month="NOVEMBER" day="20" descriptionPropertiesKey="BLACK_AWARENESS"/>
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="ap" description="Amapá">
+		<tns:Holidays>
+			<tns:Fixed month="MARCH" day="19" descriptionPropertiesKey="ST_JOSE"/>
+			<tns:Fixed month="JULY" day="25" descriptionPropertiesKey="ST_TIAGO"/>
+			<tns:Fixed month="OCTOBER" day="5" descriptionPropertiesKey="FOUNDATION"/>
+			<tns:Fixed month="NOVEMBER" day="20" descriptionPropertiesKey="BLACK_AWARENESS"/>
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="am" description="Amazonas">
+		<tns:Holidays>
+			<tns:Fixed month="SEPTEMBER" day="5" />
+			<tns:Fixed month="NOVEMBER" day="20" />
+			<tns:Fixed month="DECEMBER" day="8" />
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="ba" description="Bahia">
+		<tns:Holidays>
+			<tns:Fixed month="JULY" day="2" />
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="ce" description="Ceará">
+		<tns:Holidays>
+			<tns:Fixed month="MARCH" day="19" />
+			<tns:Fixed month="MARCH" day="25" />
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="df" description="Distrito Federal">
+		<tns:Holidays>
+			<tns:Fixed month="APRIL" day="21" descriptionPropertiesKey="FOUNDATION"/>
+			<tns:Fixed month="NOVEMBER" day="30" />
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="es" description="Espírito Santo">
+		<tns:Holidays>
+			<tns:Fixed month="OCTOBER" day="28" />
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="go" description="Goiás">
+		<tns:Holidays>
+			<tns:Fixed month="OCTOBER" day="24" descriptionPropertiesKey="FOUNDATION"/>
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="ma" description="Maranhão">
+		<tns:Holidays>
+			<tns:Fixed month="JULY" day="28" />
+			<tns:Fixed month="NOVEMBER" day="20" descriptionPropertiesKey="BLACK_AWARENESS"/>
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="mt" description="Mato Grosso">
+		<tns:Holidays>
+			<tns:Fixed month="NOVEMBER" day="20" descriptionPropertiesKey="BLACK_AWARENESS"/>
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="ms" description="Mato Grosso do Sul">
+		<tns:Holidays>
+			<tns:Fixed month="OCTOBER" day="11" descriptionPropertiesKey="FOUNDATION"/>
+		</tns:Holidays>
+		<tns:SubConfigurations hierarchy="cg" description="Campo Grande">
+			<tns:Holidays>
+				<tns:Fixed month="AUGUST" day="26" descriptionPropertiesKey="FOUNDATION"/>
+			</tns:Holidays>
+		</tns:SubConfigurations>
+		<tns:SubConfigurations hierarchy="do" description="Dourados">
+			<tns:Holidays>
+				<tns:Fixed month="DECEMBER" day="8" descriptionPropertiesKey="LADY_CONCEICAO"/>
+			</tns:Holidays>
+		</tns:SubConfigurations>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="mg" description="Minas Gerais">
+		<tns:Holidays>
+			<tns:Fixed month="APRIL" day="21" descriptionPropertiesKey="FOUNDATION"/>
+		</tns:Holidays>
+		<tns:SubConfigurations hierarchy="bh" description="Belo Horizonte">
+			<tns:Holidays>
+				<tns:Fixed month="AUGUST" day="15" descriptionPropertiesKey="LADY_GOOD_VOYAGE"/>
+				<tns:Fixed month="DECEMBER" day="8" descriptionPropertiesKey="LADY_CONCEICAO"/>
+			</tns:Holidays>
+		</tns:SubConfigurations>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="pa" description="Pará">
+		<tns:Holidays>
+			<tns:Fixed month="AUGUST" day="15" />
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="pb" description="Paraíba">
+		<tns:Holidays>
+			<tns:Fixed month="JULY" day="26" />
+			<tns:Fixed month="AUGUST" day="5" descriptionPropertiesKey="FOUNDATION"/>
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="pr" description="Parana">
+		<tns:Holidays></tns:Holidays>
+		<tns:SubConfigurations hierarchy="cu" description="Curitiba">
+			<tns:Holidays>
+				<tns:Fixed month="SEPTEMBER" day="8" descriptionPropertiesKey="LADY_LIGHT_PINE"/>
+			</tns:Holidays>
+		</tns:SubConfigurations>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="pe" description="Pernambuco">
+		<tns:Holidays>
+			<tns:Fixed month="MARCH" day="6" descriptionPropertiesKey="FOUNDATION"/>
+			<tns:Fixed month="JUNE" day="24" />
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="pi" description="Piauí">
+		<tns:Holidays>
+			<tns:Fixed month="MARCH" day="13"/>
+			<tns:Fixed month="OCTOBER" day="19" />
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="rj" description="Rio de Janeiro">
+		<tns:Holidays>
+			<tns:Fixed month="APRIL" day="23" validFrom="2007" descriptionPropertiesKey="ST_GEORGE"/>
+			<tns:Fixed month="NOVEMBER" day="20" descriptionPropertiesKey="BLACK_AWARENESS"/>
+		</tns:Holidays>
+		<tns:SubConfigurations hierarchy="crj" description="City of Rio de Janeiro">
+			<tns:Holidays>
+				<tns:Fixed month="JANUARY" day="20" descriptionPropertiesKey="ST_SEBASTIAN"/>
+				<tns:Fixed month="APRIL" day="23" validTo="2006" descriptionPropertiesKey="ST_GEORGE"/>
+			</tns:Holidays>
+		</tns:SubConfigurations>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="rn" description="Rio Grande do Norte">
+		<tns:Holidays>
+			<tns:Fixed month="JUNE" day="29" descriptionPropertiesKey="ST_PEDRO"/>
+			<tns:Fixed month="OCTOBER" day="3" descriptionPropertiesKey="MARTYRS_DAY"/>
+		</tns:Holidays>
+		<tns:SubConfigurations hierarchy="na" description="Natal">
+			<tns:Holidays>
+				<tns:Fixed month="NOVEMBER" day="21" descriptionPropertiesKey="LADY_APRESENTACAO"/>
+			</tns:Holidays>
+		</tns:SubConfigurations>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="rs" description="Rio Grande do Sul">
+		<tns:Holidays>
+			<tns:Fixed month="SEPTEMBER" day="20" descriptionPropertiesKey="FARROUS_REVOLUTION"/>
+		</tns:Holidays>
+		<tns:SubConfigurations hierarchy="sm" description="Santa Maria">
+			<tns:Holidays>
+				<tns:Fixed month="DECEMBER" day="8" descriptionPropertiesKey="LADY_CONCEICAO"/>
+			</tns:Holidays>
+		</tns:SubConfigurations>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="ro" description="Rondônia">
+		<tns:Holidays>
+			<tns:Fixed month="JANUARY" day="4"/>
+			<tns:Fixed month="JUNE" day="18" />
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="rr" description="Roraima">
+		<tns:Holidays>
+			<tns:Fixed month="OCTOBER" day="5"/>
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="sc" description="Santa Catarina">
+		<tns:Holidays>
+			<tns:Fixed month="AUGUST" day="11"/>
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="sp" description="Sao Paulo">
+		<tns:Holidays>
+			<tns:Fixed month="JULY" day="9" descriptionPropertiesKey="CONST_REVOLUTION"/>
+			<tns:Fixed month="NOVEMBER" day="20" descriptionPropertiesKey="BLACK_AWARENESS"/>
+		</tns:Holidays>
+		<tns:SubConfigurations hierarchy="csp" description="City of Sao Paulo">
+			<tns:Holidays>
+				<tns:Fixed month="JANUARY" day="25" descriptionPropertiesKey="FOUNDATION"/>
+				<tns:Fixed month="NOVEMBER" day="4" descriptionPropertiesKey="FOUNDATION"/>
+			</tns:Holidays>
+		</tns:SubConfigurations>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="se" description="Sergipe">
+		<tns:Holidays>
+			<tns:Fixed month="JULY" day="8"/>
+		</tns:Holidays>
+	</tns:SubConfigurations>
+	<tns:SubConfigurations hierarchy="to" description="Tocantins">
+		<tns:Holidays>
+			<tns:Fixed month="JANUARY" day="1"/>
+			<tns:Fixed month="SEPTEMBER" day="8"/>
+			<tns:Fixed month="OCTOBER" day="5"/>
+		</tns:Holidays>
+	</tns:SubConfigurations>
+</tns:Configuration>

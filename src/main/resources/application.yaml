@@ -1,0 +1,44 @@
+#-----------------------------
+server:
+  port: 15001
+#-----------------------------
+
+spring:
+  application:
+    name: api-integracao-banco
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: grvapl
+    password: APLUsr4And
+    url: jdbc:postgresql://10.21.31.235:5432/db_teste
+  jpa:
+    hibernate:
+      ddl-auto: validate
+      show_sql: false
+      format_sql: true
+      dialect: org.hibernate.dialect.PostgreSQL9Dialect
+      enable-lazy-load-no-trans: true
+      
+megareg:
+  aplicacao-nome: ApiIntegracaoBancos
+  diretorio-base-log: /opt/projetos/api-integracaoBanco/
+  queue:
+    server: 10.21.31.244:9092
+    group_id: group_id_apiintban
+    topic-taxa-contrato-detran-pagar: taxa-contrato-detran-pagar
+    topic-taxa-contrato-detran-consultar: taxa-contrato-detran-consultar
+  bancos:
+    bco001:
+      url-token: https://oauth.sandbox.bb.com.br/oauth/token
+      contenttype: application/x-www-form-urlencoded
+      granttype: client_credentials
+      authorization: Basic ZXlKcFpDSTZJakZtTVRVMU56Y3RZV0U0WkMwME1HRTFMVGtpTENKamIyUnBaMjlRZFdKc2FXTmhaRzl5SWpvd0xDSmpiMlJwWjI5VGIyWjBkMkZ5WlNJNk16STRNemtzSW5ObGNYVmxibU5wWVd4SmJuTjBZV3hoWTJGdklqb3hmUTpleUpwWkNJNkltVm1aR0ZtTVRNdE1qQmlOeTAwTmpOakxXSmpZMkV0TVRoak5qbG1OMlE1Wm1VMU5tTXhabVZrSWl3aVkyOWthV2R2VUhWaWJHbGpZV1J2Y2lJNk1Dd2lZMjlrYVdkdlUyOW1kSGRoY21VaU9qTXlPRE01TENKelpYRjFaVzVqYVdGc1NXNXpkR0ZzWVdOaGJ5STZNU3dpYzJWeGRXVnVZMmxoYkVOeVpXUmxibU5wWVd3aU9qRXNJbUZ0WW1sbGJuUmxJam9pYUc5dGIyeHZaMkZqWVc4aUxDSnBZWFFpT2pFMk5EazJPVGcyTmpJeE9UQjk=
+      clientid: eyJpZCI6IjFmMTU1NzctYWE4ZC00MGE1LTkiLCJjb2RpZ29QdWJsaWNhZG9yIjowLCJjb2RpZ29Tb2Z0d2FyZSI6MzI4MzksInNlcXVlbmNpYWxJbnN0YWxhY2FvIjoxfQ
+      secretid: eyJpZCI6ImVmZGFmMTMtMjBiNy00NjNjLWJjY2EtMThjNjlmN2Q5ZmU1NmMxZmVkIiwiY29kaWdvUHVibGljYWRvciI6MCwiY29kaWdvU29mdHdhcmUiOjMyODM5LCJzZXF1ZW5jaWFsSW5zdGFsYWNhbyI6MSwic2VxdWVuY2lhbENyZWRlbmNpYWwiOjEsImFtYmllbnRlIjoiaG9tb2xvZ2FjYW8iLCJpYXQiOjE2NDk2OTg2NjIxOTB9
+      developerapplicationkey: d27b87790bffab301365e17dc0050e56b9a1a5bf
+      url-server: https://api.sandbox.bb.com.br/pagamentos-lote/v1
+  milliseconds-scheduled: 60000  #60 segundos
+  api:
+    url: http://localhost:8080/MgdtGravame/api
+        
+#-----------------------------
